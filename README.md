@@ -7,12 +7,13 @@ Demontração
 
 Uma demonstração completa está disponível. Busque por `presentation.tex` e `presentation.pdf`.
 
-![](https://github.com/elauksap/focustheme/blob/master/demo-screenshots/demo-titlepage.jpg)
-![](https://github.com/elauksap/focustheme/blob/master/demo-screenshots/demo-subsectionpage.jpg)
-![](https://github.com/elauksap/focustheme/blob/master/demo-screenshots/demo-typeset.jpg)
-![](https://github.com/elauksap/focustheme/blob/master/demo-screenshots/demo-focus.jpg)
-![](https://github.com/elauksap/focustheme/blob/master/demo-screenshots/demo-references.jpg)
-![](https://github.com/elauksap/focustheme/blob/master/demo-screenshots/demo-appendix.jpg)
+![](https://github.com/gusirosx/Focus_theme/blob/master/demo-screenshots/demo-titlepage.PNG)
+![](https://github.com/gusirosx/Focus_theme/blob/master/demo-screenshots/demo-subsectionpage.PNG)
+![](https://github.com/gusirosx/Focus_theme/blob/master/demo-screenshots/demo-typeset.PNG)
+![](https://github.com/gusirosx/Focus_theme/blob/master/demo-screenshots/demo-focus.PNG)
+![](https://github.com/gusirosx/Focus_theme/blob/master/demo-screenshots/demo-references.PNG)
+![](https://github.com/gusirosx/Focus_theme/blob/master/demo-screenshots/demo-appendix.PNG)
+
 
 Download
 ========
@@ -47,7 +48,7 @@ Por exemplo, as seguintes configurações:
 ```
 produzem as seguintes possibilidades de cores.
 
-![](https://github.com/elauksap/focustheme/blob/master/demo-screenshots/demo-titlepage-color.jpg)
+![](https://github.com/gusirosx/Focus_theme/blob/master/demo-screenshots/demo-titlepage-color.PNG)
 
 Personalizar o Rodapé
 ----------------------
