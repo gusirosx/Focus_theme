@@ -1,17 +1,11 @@
-# Focus v2.5
-A presentation theme for LaTeX Beamer that aims at a clean and minimalist design,
-so to minimize distractions and put the focus directly on the content.
+# Tema Focus para apresentações minimalistas
 
-This package is available through the [CTAN](https://ctan.org/pkg/beamertheme-focus) in
-most LaTeX distributions such as [MiKTeX](https://ctan.org/pkg/miktex) and [TeXLive](https://ctan.org/pkg/texlive).
+Esse tema é uma versão adaptada do tema [Focus](https://github.com/elauksap/focus-beamertheme) que visa disponibilizar um tema de apresentações para o LaTeX Beamer com design limpo e minimalista, para minimizar as distrações e colocar o foco diretamente no conteúdo.
 
-Requires the packages [appendixnumberbeamer](https://ctan.org/pkg/appendixnumberbeamer),
-[fira](https://ctan.org/pkg/fira) and [PGF/TikZ](https://ctan.org/pkg/pgf)
-to be installed in your LaTeX distribution.
-
-Demo
+Demontração
 ----
-A full demo is available. Refer to `demo.tex` and `demo.pdf`.
+
+Uma demonstração completa está disponível. busque por `presentation.tex` and `presentation.pdf`.
 
 ![](https://github.com/elauksap/focustheme/blob/master/demo-screenshots/demo-titlepage.jpg)
 ![](https://github.com/elauksap/focustheme/blob/master/demo-screenshots/demo-subsectionpage.jpg)
@@ -22,82 +16,72 @@ A full demo is available. Refer to `demo.tex` and `demo.pdf`.
 
 Download
 ========
-Download the latest release by following [this](https://github.com/elauksap/focustheme/releases) link.
+Faça o download da versão mais recente através [deste link](https://github.com/gusirosx/Focus_theme/releases).
 
-Instructions
+Instruções
 ============
-After downloading, copy the files named beamer*themefocus.sty into the same folder as your LaTeX source file.
 
-Then include the theme by writing:
+Após o download, copie os arquivos chamados beamer*themefocus.sty para a mesma pasta que o arquivo de origem do LaTeX.
+Em seguida, inclua o tema escrevendo:
 ```latex
 \documentclass{beamer}
 
 \usetheme{focus}
 ```
-in the preamble of your document.
+no preâmbulo do seu documento.
 
-Customize colors
+Personalizar cores
 ----------------
-Focus is based on two colors, namely `main` and `background`, that can be customized after including the theme.
+A presente versão do tema focus é baseada em três cores, denominadas `main`,`mainb` e `background`, que podem ser personalizadas após a inclusão do tema. Onde por padrão `main` refere-se a cor de destaque do tema,`mainb` refere-se a cor das fonte e `background` refere-se a de fundo do tema.
 
-For example:
+Por exemplo, as seguintes configurações:
 ```latex
 \usetheme{focus}
 
-\definecolor{main}{RGB}{92, 138, 168}
+\definecolor{mainb}{RGB}{64, 64, 64} % Black Font
+\definecolor{main}{RGB}{64, 64, 64}  % Dark
+\definecolor{main}{RGB}{78, 0, 142}  % Pur
+\definecolor{main}{RGB}{175, 51, 51} % Red
+\definecolor{main}{RGB}{16, 6, 159}  % blue
 \definecolor{background}{RGB}{240, 247, 255}
 ```
-produces the following ice-blue color theme.
+produzem as seguintes possibilidades de cores.
 
 ![](https://github.com/elauksap/focustheme/blob/master/demo-screenshots/demo-titlepage-color.jpg)
 
-Customize the footline
+Personalizar o Rodapé
 ----------------------
-The footline numbering can be customized through the theme option _numbering_. The standard value is:
+A numeração do rodapé pode ser personalizada através da opção de tema _numbering_. O valor padrão é:
+
 ```latex
 \usetheme[numbering=progressbar]{focus}
 ```
-that shows an progress bar of increasing length on the footline.
+que mostra uma barra de progresso de comprimento crescente no footline.
 
-Alternatively, a full footline bar with the frame numbering can be shown with:
+Como alternativa, uma barra de rodapé completa com a numeração de quadros pode ser mostrada com:
+
 ```latex
 \usetheme[numbering=fullbar]{focus}
 ```
 
-The footline may also be disabled by typing:
+O rodapé também pode ser desativado digitando:
 ```latex
 \usetheme[numbering=none]{focus}
 ```
 
-Customize fonts
+Personalizar fontes
 ---------------
-Focus is using the [Fira fonts](https://bboxtype.com/typefaces/FiraSans/) by default.
+O foco está usando o [Fira fonts](https://bboxtype.com/typefaces/FiraSans/) por padrão.
 
-This can be changed by using the option _nofirafonts_:
+Isso pode ser alterado usando a opção _nofirafonts_:
 ```latex
 \usetheme[nofirafonts]{focus}
 ```
-
-License
+Licença
 =======
-This software is released under the [GNU GPL v3.0 License](https://www.gnu.org/licenses/gpl-3.0.en.html).
+seu software é lançado sob a licença [GNU GPL v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-Contacts
-========
-If you are enjoying this theme please share it with your friends or colleagues!
-
-Any suggestions, comments, criticism or appreciation are welcome!
-
-Contact information are available to registered users on my Github profile page.
-
-Contributors
+Contribuidores
 ============
-Focus was initially created and designed by [Pasquale Africa](https://github.com/elauksap).
-
-The following people deserve appreciation and acknowledgment for improving the template with
-additions and modifications (in alphabetical order):
-
-- Sebastian Friedl
-- Benjamin Goldman
-
-A more detailed contribution list is found [here](https://github.com/elauksap/focus-beamertheme/graphs/contributors).
+Esse tema foi criado e projetado inicialmente por [Pasquale Africa](https://github.com/elauksap).
+A presente versão, foi adaptada para o português por [Gustavo Rodrigues](https://github.com/gusirosx).
