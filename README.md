@@ -48,7 +48,7 @@ Por exemplo, as seguintes configurações:
 ```
 produzem as seguintes possibilidades de cores.
 
-![](https://github.com/gusirosx/Focus_theme/blob/master/demo-screenshots/demo-titlepage-color.PNG)
+![](https://github.com/gusirosx/Focus_theme/blob/master/demo-screenshots/demo-titlepage-color.png)
 
 Personalizar o Rodapé
 ----------------------
