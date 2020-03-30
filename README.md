@@ -5,7 +5,7 @@ Esse tema é uma versão adaptada do tema [Focus](https://github.com/elauksap/fo
 Demontração
 ----
 
-Uma demonstração completa está disponível. busque por `presentation.tex` and `presentation.pdf`.
+Uma demonstração completa está disponível. Busque por `presentation.tex` e `presentation.pdf`.
 
 ![](https://github.com/elauksap/focustheme/blob/master/demo-screenshots/demo-titlepage.jpg)
 ![](https://github.com/elauksap/focustheme/blob/master/demo-screenshots/demo-subsectionpage.jpg)
