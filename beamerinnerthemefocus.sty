@@ -43,7 +43,7 @@
 	    \end{tikzpicture}
     }
     
-    \vspace{-1.65\baselineskip}
+    \vspace{-2.5\baselineskip}
     \begin{minipage}[b][0.35\paperheight]{\textwidth}
         \vspace{\baselineskip}
         \usebeamerfont{title}
@@ -59,21 +59,18 @@
     
     % Set the title graphic in a zero-height box, so that
     % the position of other elements is not affected.
-    {\vfuzz=9999pt\vbox to 0pt {
-        \raggedleft
-        \inserttitlegraphic
-    }}
-    
+    \vspace*{0.4cm}
     \begin{minipage}[t]{\textwidth}
         \usebeamerfont{author}
         \insertauthor
     \end{minipage}
-    
-    \vspace*{\baselineskip}
-    \begin{minipage}[t]{\textwidth}
-        \usebeamerfont{institute}
-        \insertinstitute
-    \end{minipage}
+    \vspace*{1.2cm}
+
+    \vbox to 0pt {
+        \raggedleft
+        \inserttitlegraphic
+    }
+    \vspace*{0.8cm}
     
     \vspace*{\baselineskip}
     \begin{minipage}[t]{\textwidth}
@@ -110,11 +107,11 @@
     \end{minipage}
 }
 
-\AtBeginSection[]{%
-    \begin{frame}[plain, noframenumbering]{}
-        \sectionpage
-    \end{frame}%
-}
+% \AtBeginSection[]{%
+%     \begin{frame}[plain, noframenumbering]{}
+%         \sectionpage
+%     \end{frame}%
+% }
 
 % Subsection page.
 \defbeamertemplate*{subsection page}{focus}{%
@@ -140,10 +137,10 @@
     \end{minipage}
 }
 
-\AtBeginSubsection[]{%
-    \begin{frame}[plain, noframenumbering]{}
-        \subsectionpage
-    \end{frame}%
-}
+% \AtBeginSubsection[]{%
+%     \begin{frame}[plain, noframenumbering]{}
+%         \subsectionpage
+%     \end{frame}%
+% }
 
 \mode<all>
